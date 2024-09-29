@@ -13,7 +13,6 @@ def render_progressbar(total, iteration, prefix='', suffix='', length=30, fill='
     return '{0} |{1}| {2}% {3}'.format(prefix, pbar, percent, suffix)
 
 
-
 def wait(chat_id, question):
     delay_second = parse(question)
     wait_message = f"Осталось {delay_second} секунд \n"
